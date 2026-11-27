@@ -29,6 +29,6 @@ jobs:
           """
           result=analyze(report,kind='soil',source='transcribed_soil_fixture')
           print(json.dumps(result,ensure_ascii=False,indent=2))
-          assert result['row_count'] >= 6, "too few recognized fixture rows"
+          assert result['row_count'] == 8, "all eight known soil fields must be recognized"
           assert result['use_in_calculation_allowed'] is False
           PY
