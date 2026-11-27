@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*result.json
+private-data/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
