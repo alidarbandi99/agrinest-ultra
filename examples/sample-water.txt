@@ -1,0 +1,5 @@
+Ca: 220 mg/L
+Mg: 81.6 mg/L
+EC: 1.1 dS/m
+pH: 7.34
+NO3: 16.8 mg/L
